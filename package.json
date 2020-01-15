@@ -9,6 +9,13 @@
   "dependencies": {},
   "devDependencies": {
     "bulma": "^0.8.0",
+    "http-server": "^0.12.1",
     "node-sass": "^4.13.0"
+  },
+  "scripts": {
+    "css-build": "yarn node-sass --omit-source-map-url sass/darkmatter.scss css/darkmatter.css",
+    "css-watch": "yarn css-build -- --watch",
+    "start": "yarn css-watch",
+    "serve": "yarn http-server"
   }
 }

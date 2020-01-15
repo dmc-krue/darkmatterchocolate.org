@@ -1,0 +1,49 @@
+@charset "utf-8";
+
+// Set your brand colors
+$purple-dark: #542e91;
+$purple-light: #908cca;
+$milk-chocolate: #8f7265;
+$dark-chocolate: #50320a;
+$exdark-chocolate: #000000;
+$white-chocolate: #fbf9d3;
+
+// Update Bulma's global variables
+$black: $exdark-chocolate;
+$grey-dark: $purple-light;
+$grey-light: $purple-light;
+$grey-darker: $purple-light;
+$primary: $purple-light;
+$primary-invert: $white-chocolate;
+$link: $white-chocolate;
+$link-invert: $white-chocolate;
+$widescreen-enabled: false;
+$fullhd-enabled: false;
+$input-placeholder-color: $purple-light;
+
+// Update some of Bulma's component variables
+$body-background-color: $black;
+$control-border-width: 2px;
+$input-border-color: $purple-light;
+$input-hover-border-color: $white-chocolate;
+
+
+// Import only what you need from Bulma
+@import "../node_modules/bulma/sass/utilities/_all.sass";
+@import "../node_modules/bulma/sass/base/_all.sass";
+@import "../node_modules/bulma/sass/elements/button.sass";
+@import "../node_modules/bulma/sass/elements/container.sass";
+@import "../node_modules/bulma/sass/elements/title.sass";
+@import "../node_modules/bulma/sass/form/_all.sass";
+@import "../node_modules/bulma/sass/components/navbar.sass";
+@import "../node_modules/bulma/sass/layout/hero.sass";
+@import "../node_modules/bulma/sass/layout/section.sass";
+@import "../node_modules/bulma/sass/grid/columns";
+
+
+.signup {
+  .input, .button {
+    height: 3.25em;
+  }
+}
+

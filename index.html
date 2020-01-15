@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Datk Matter Chocolate</title>
+    <link rel="stylesheet" href="css/darkmatter.css">
+    <link rel="shortcut icon" href="/galaxy_logo.png" />
+  </head>
+  <body>
+    <!--
+    <header>
+      <nav class="navbar is-black" id="navbar" role="navigation">
+        <div class="container is-fluid">
+          <div class="navbar-brand">
+          </div>
+
+        </div>
+      </nav>
+    </header>
+    -->
+    <main>
+      <section class="section">
+        <div class="container">
+          <h1 class="subtitle is-1 has-text-centered">
+            <img src="/logo_rectangle.png" alt="Dark Matter Chocolate">
+            Artisinal chocolate by nerds for nerds
+          </h1>
+        </div>
+      </section>
+
+      <section class="section" style="padding-top: 1rem">
+        <div class="container">
+          <div class="column is-8-fullhd is-8-desktop is-8-tablet is-offset-2-fullhd is-offset-2-desktop is-offset-2-tablet">
+            <h3 class="title is-2 has-text-centered">
+              Online orders are coming soon
+            </h3>
+            <form action="https://squareup.com/outreach/NJHDRT/subscribe" method="POST" target="_blank">
+              <div class="field is-grouped">
+                <p class="control is-expanded">
+                  <input class="input" style="background: transparent" type="email" name="email_address" placeholder="Your email address">
+                </p>
+                <p class="control">
+                  <button type="submit" class="button is-primary">
+                    Sign Up to Hear More
+                  </button>
+                </p>
+              </div>
+            </form>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" style="padding-top: 1rem">
+        <div class="container">
+          <div class="column is-8-fullhd is-8-desktop is-8-tablet is-offset-2-fullhd is-offset-2-desktop is-offset-2-tablet">
+            <h2 class="title is-2 has-text-centered">
+              Conventions
+            </h2>
+            <p class="subtitle is-4">
+              See us at the following conventions around New England
+            </p>
+            <ul>
+              <li>
+                Arisia 2020 - January 17th-20th - Westin Boston Waterfront
+              </li>
+              <li>
+                Boskone 57 - Feburary 14th-16th - Westin Boston Waterfront
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="container">
+        <div class="column is-8-fullhd is-8-desktop is-8-tablet is-offset-2-fullhd is-offset-2-desktop is-offset-2-tablet">
+        <h4 class="title is-2 has-text-centered">
+          Follow us on
+        </h4>
+        <ul>
+          <li><a href="https://twitter.com/DarkMatterChoc" >Twitter: @DarkMatterChoc</a></li>
+          <li><a href="https://www.instagram.com/DarkMatterChoc/" >Instagram: @DarkMatterChoc</a></li>
+          <li><a href="https://www.facebook.com/DarkMatterChocolate" >Facebook: @DarkMatterChocolate</a></li>
+        </ul>
+      </div>
+      </div>
+    </footer>
+  </body>
+  <script>
+    document.addEventListener('DOMContentLoaded', () => {
+
+      // Get all "navbar-burger" elements
+      const $navbarBurgers = Array.prototype.slice.call(document.querySelectorAll('.navbar-burger'), 0);
+
+      // Check if there are any navbar burgers
+      if ($navbarBurgers.length > 0) {
+
+        // Add a click event on each of them
+        $navbarBurgers.forEach( el => {
+          el.addEventListener('click', () => {
+
+            // Get the target from the "data-target" attribute
+            const target = el.dataset.target;
+            const $target = document.getElementById(target);
+
+            // Toggle the "is-active" class on both the "navbar-burger" and the "navbar-menu"
+            el.classList.toggle('is-active');
+            $target.classList.toggle('is-active');
+
+          });
+        });
+      }
+
+    });
+  </script>
+</html>
