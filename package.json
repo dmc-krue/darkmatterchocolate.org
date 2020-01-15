@@ -1,0 +1,14 @@
+{
+  "name": "darkmatterchocolate",
+  "version": "1.0.0",
+  "description": "Dark Matter Chocolate, LLC website ©Dark Matter Chocolate, LLC",
+  "main": "index.js",
+  "repository": "github.com/pweaver/darkmatterchocolate.org",
+  "author": "Paul Weaver",
+  "license": "UNLICENSED",
+  "dependencies": {},
+  "devDependencies": {
+    "bulma": "^0.8.0",
+    "node-sass": "^4.13.0"
+  }
+}
