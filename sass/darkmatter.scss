@@ -26,6 +26,7 @@ $body-background-color: $black;
 $control-border-width: 2px;
 $input-border-color: $purple-light;
 $input-hover-border-color: $white-chocolate;
+$scheme-main-bis: $black;
 
 
 // Import only what you need from Bulma
@@ -34,9 +35,11 @@ $input-hover-border-color: $white-chocolate;
 @import "../node_modules/bulma/sass/elements/button.sass";
 @import "../node_modules/bulma/sass/elements/container.sass";
 @import "../node_modules/bulma/sass/elements/title.sass";
+@import "../node_modules/bulma/sass/elements/content.sass";
 @import "../node_modules/bulma/sass/form/_all.sass";
-@import "../node_modules/bulma/sass/components/navbar.sass";
+//@import "../node_modules/bulma/sass/components/navbar.sass";
 @import "../node_modules/bulma/sass/layout/section.sass";
+@import "../node_modules/bulma/sass/layout/footer.sass";
 @import "../node_modules/bulma/sass/grid/columns";
 
 
